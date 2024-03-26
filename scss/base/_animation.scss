@@ -1,0 +1,19 @@
+@keyframes turn {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes orbit {
+    from {
+        transform: rotate(0deg) translateX(100%) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(100%) rotate(-360deg);
+    }
+}

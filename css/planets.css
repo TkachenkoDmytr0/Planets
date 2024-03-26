@@ -1,0 +1,77 @@
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+div img:not(.sun img) {
+  -webkit-animation: turn 3s linear infinite;
+          animation: turn 3s linear infinite;
+}
+
+img {
+  width: 100px;
+}
+
+.sun {
+  width: 100px;
+  height: 100px;
+}
+
+.sun img {
+  width: 100px;
+  height: 100px;
+}
+
+.mercury {
+  width: 100px;
+  height: 100px;
+  -webkit-animation: orbit 3s linear infinite;
+          animation: orbit 3s linear infinite;
+}
+
+.mercury img {
+  width: 20px;
+  height: 20px;
+}
+
+.venus {
+  width: 130px;
+  height: 130px;
+  -webkit-animation: orbit 4s linear infinite;
+          animation: orbit 4s linear infinite;
+}
+
+.venus img {
+  width: 20px;
+  height: 20px;
+}
+
+.earth {
+  width: 180px;
+  height: 180px;
+  -webkit-animation: orbit 5s linear infinite;
+          animation: orbit 5s linear infinite;
+}
+
+.earth img {
+  width: 30px;
+  height: 30px;
+}
+
+.mars {
+  width: 230px;
+  height: 230px;
+  -webkit-animation: orbit 6s linear infinite;
+          animation: orbit 6s linear infinite;
+}
+
+.mars img {
+  width: 25px;
+  height: 25px;
+  -webkit-animation: turn 3s linear infinite;
+          animation: turn 3s linear infinite;
+}
+/*# sourceMappingURL=planets.css.map */
